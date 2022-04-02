@@ -1,0 +1,525 @@
+    @charset "utf-8";
+
+/*共通部分*/
+
+    .html{
+        font-size: 62.5%;
+    }
+
+
+
+    .body{
+        color: #222222;
+        font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+        font-size: 1.6rem;
+        line-height: 50%;
+        width: 1366px;
+    }
+
+    .sukima {
+        line-height: 2.0;
+    }
+
+    /* * {
+        box-shadow: 0 0 0 1px orange;
+    } */
+  
+    .img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-center{
+        text-align: center;
+        padding: 0%;
+    }
+
+    .sec {
+        color: #ffd61a;
+        font-size: 24px;
+    }
+
+    .a{
+        text-decoration: none;
+    }
+
+    .dai {
+        margin-bottom: 30px;
+    }
+
+/*heroimage----------------*/
+
+
+
+
+/*header----------------*/
+
+    .header {
+        height: 120px;
+    }
+
+    .logo {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 50px;
+        width: 200px;
+        height: auto;
+    }
+
+    .logo2 {
+        height: 120.5px;
+    }
+
+    .hnav {
+        display: flex;
+        font-size: 2.1rem;
+        text-transform: uppercase;
+        text-decoration-line: none;
+        margin-right: 50px;
+    }
+
+    .hnav li{
+        margin-left: 50px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .hnav a{
+        color: #222222;
+        text-decoration-line: none;
+    }
+
+    .hnav a:hover{
+        color: #0bd;
+    }
+
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px rgb(155, 154, 154);
+        height: 120.5px;
+    }
+
+    .wrapper{
+        max-width: 1366px;
+        margin: 0 auto;
+        padding: 0 4%;
+    }
+
+    .mv {
+        background-image: url(Image/original.gif);
+        background-size: cover;
+        max-width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center; /*左右中央揃え*/
+        align-items: center;     /*上下中央揃え*/
+    }
+
+    .titlecopy {
+        color: white;
+        font-size: 3.2rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title p{
+        font-size: 3.2rem;
+        margin-top: 30px;
+
+    }
+
+
+
+/*about*/
+
+    .about-wrapper{
+        width: 700px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .midpic img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutp1 {
+        margin-bottom: 60px;
+    }
+
+    .aboutp2 {
+        margin-bottom: 40px;
+    }
+
+/*course*/
+
+    .cwrapper {
+        margin-bottom: 60px;
+    }
+
+    .coursetop {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .coursetitle {
+        color: #222222;
+        margin-bottom: 30px;
+    }
+
+    .courseintro {
+        text-align: center;
+    }
+
+    .courseline1 {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 460px;
+    }
+
+    .courseline1 h2 {
+        margin-top: 120px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+        width: 480px;
+    }
+
+    .courseline1 p {
+        margin-bottom: 100px;
+        margin-left: 50px;
+        width: 480px;
+    }
+
+    .box1 img {
+        width: 682px;
+        height: 460px;
+    }
+
+    .boxtext1 {
+        margin: 0;
+        background-color: beige;
+        width: 682px;
+        height: 460px;
+    }
+
+    .courseline2 {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 460px;
+    }
+
+    .courseline2 h2 {
+        margin-top: 120px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        width: 480px;
+        margin-left: 120px;
+    }
+
+    .courseline2 p {
+        margin-bottom: 100px;
+        margin-right: 50px;
+        width: 480px;
+        margin-left: 120px;
+    }
+
+    .box2 img {
+        width: 682px;
+        height: 460px;
+    }
+
+    .boxtext2 {
+        margin: 0;
+        background-color: beige;
+        width: 682px;
+        height: 460px;
+    }
+
+ 
+
+
+/*NEWS*/
+
+    .news__title{
+        margin:  0 0 64px;
+
+    }
+
+    .newslist {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .ndate{
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+
+    .news1 {
+        width: 300px;
+    }
+
+    .news2 {
+        width: 300px;
+    }
+
+    .news3 {
+        width: 300px;
+    }
+
+    .nhob a:hover{
+        background-color: #e89410;
+      }
+    
+    .nhob a{
+        text-decoration-line: none;
+    }
+
+    .nbun {
+        margin-bottom: 0px;
+    }
+
+    .morebtn {
+        width: 300px;
+        height: 60px;
+        font-size: 1.8rem;
+        margin: 60px auto;
+        text-align: center;
+    }
+
+    .morebtn a{
+        text-decoration-line: none;
+    }
+
+    .morebtn a:hover{
+        background-color: #e89410;
+    }
+
+    .div .morebtn {
+        text-align: center;
+    }
+
+    .youtube {
+        text-align: center;
+    }
+
+
+/*btn*/
+
+.btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    padding: auto;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.btn :hover{
+    color: #0bd;
+}
+
+/*acces*/
+.access{
+    display: block;
+    background-color: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.map iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+.access2 {
+    margin-bottom: 60px;
+}
+
+
+/*contact*/
+.form-wrapper{
+    width: 640px;
+    margin: auto;
+}
+
+.contacttitle {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contactintro {
+    text-align: center;
+}
+
+.conp1 {
+    margin-bottom: 60px;
+}
+
+.conp2 {
+    margin-bottom: 30px;
+}
+
+.conp3 {
+    margin-bottom: 70px;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-title{
+    width: 160px;
+    height: 36px;
+    margin-right: 64px;
+    margin-left: 16px;
+}
+
+.form-item{
+    width: 392px;
+    height: 36px;
+    margin-left: 8px;
+
+}
+
+.formparts {
+    box-sizing: border-box;
+    width: 328px;
+    padding: 8px;
+    border: solid 1px #bfbfbf;
+    font-size: 1.6rem;
+
+}
+
+.formkik{
+    height: 90px;
+}
+
+.contactbtn {
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* きよぴー先生の教えパート*/
+
+.form-wrapper2{
+    width: 640px;
+    margin: auto;
+    display: grid;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 16px;
+    grid-template-columns: 240px 400px;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.border-top{
+    border-top: 1px solid #bfbfbf;
+}
+
+.border-right{
+    border-right: 1px solid #bfbfbf;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.fname {
+    padding-left: 16px;
+}
+
+.fnameinput {
+    margin: 8px;
+}
+
+.fkana {
+    padding-left: 16px;
+}
+
+.fkanainput {
+    margin: 8px;
+}
+
+.fmail {
+    padding-left: 16px;
+}
+
+.fmailinput {
+    margin: 8px;
+}
+
+.fmail p{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.fhow {
+    padding-left: 16px;
+}
+
+.fhowinput {
+    margin: 8px;
+}
+
+.fsibou {
+    padding-left: 16px;  
+}
+
+.fsibouinput {
+    margin: 8px;
+}
+
+.fc {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.fshou {
+    padding-left: 16px;  
+}
+
+.fshouinput {
+    margin: 8px;
+}
+
+
+/*footer*/
+.footer{
+    background-color: #707070;
+    color: #fff;
+    margin-top: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.p {
+    line-height: 50%;
+}
